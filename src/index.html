@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../public/output.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="../public/img/favicon/cf-logo.jpg">
 </head>
 
 <body>
     <div id="root">
-        <div class="content-wrapper 
+        <div class="content-wrapper font-Karla
         max-w-screen-2xl text-base mx-auto px-8 bg-slate-400 
         ">
             <header class="">
                 <!-- Nav -->
-                <nav class="py-16 mx-10 flex flex-row justify-between items-center">
+                <nav class="py-16 mx-10 flex flex-row justify-between items-center relative">
                     <!-- Logo -->
                     <div class="logo
                     basis-2/6 text-2xl text-center font-semibold cursor-pointer 
@@ -23,8 +24,8 @@
                         Coffee Style.
                     </div>
                     <!-- Menu -->
-                    <ul
-                        class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium">
+                    <ul id="cs-menu" class="basis-3/6 hidden uppercase text-sm text-gray-500 font-medium
+                        lg:flex lg:items-center lg:justify-end lg:gap-8 lg:basis-1/6">
                         <li class="cs-top-menu-item">
                             <a href="#" class="">Home</a>
                         </li>
@@ -43,7 +44,7 @@
                     </ul>
                     <!-- Cart -->
                     <ul
-                        class="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+                        class="basis-2/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
                         <li class="cs-top-menu-item">
                             <a href="" class="flex justify-center">
                                 <!-- Cart icon -->
@@ -57,6 +58,15 @@
                             </a>
                         </li>
                     </ul>
+                    <!-- Menu icon responsive -->
+                    <div class="cs-icon basis-1/6 cursor-pointer px-2  
+                    lg:hidden sm:px-4 ">
+                        <svg id="cs-top-menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
                 </nav>
             </header>
             <main>
@@ -92,6 +102,7 @@
             </footer>
         </div>
     </div>
+    <script src="../public/main.js"></script>
 </body>
 
 </html>
