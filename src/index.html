@@ -5,14 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="../public/output.css" rel="stylesheet">
+    <link href="../public/output.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     <div id="root">
-        <div class="content-wrapper">
-            <header>
-                Header
+        <div class="content-wrapper 
+        max-w-screen-2xl text-base mx-auto px-8 bg-slate-400 
+        ">
+            <header class="">
+                <!-- Nav -->
+                <nav class="py-16 mx-10 flex flex-row justify-between items-center">
+                    <!-- Logo -->
+                    <div class="logo
+                    basis-2/6 text-2xl text-center font-semibold cursor-pointer 
+                     ">
+                        Coffee Style.
+                    </div>
+                    <!-- Menu -->
+                    <ul
+                        class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium">
+                        <li class="cs-top-menu-item">
+                            <a href="#" class="">Home</a>
+                        </li>
+                        <li class="cs-top-menu-item">
+                            <a href="#" class="">Blog</a>
+                        </li>
+                        <li class="cs-top-menu-item">
+                            <a href="#" class="">About</a>
+                        </li>
+                        <li class="cs-top-menu-item">
+                            <a href="#" class="">Contact</a>
+                        </li>
+                        <li class="cs-top-menu-item">
+                            <a href="#" class="">StyleGuide</a>
+                        </li>
+                    </ul>
+                    <!-- Cart -->
+                    <ul
+                        class="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+                        <li class="cs-top-menu-item">
+                            <a href="" class="flex justify-center">
+                                <!-- Cart icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="cs-icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                                <span class="mx-2">Cart</span>
+                                <span class="cs-badge-circle bg-orange-400 text-white">10</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </header>
             <main>
                 <!-- Slider -->
@@ -27,15 +72,15 @@
                 <div class="feature-mugs">
                     Feature mugs
                 </div>
-                <!--  -->
+                <!-- Megazine -->
                 <div class="coffee-megazine">
                     Coffee megazine
                 </div>
-                <!--  -->
+                <!-- Story -->
                 <div class="lifestyle-stories">
                     Lifestyle stories
                 </div>
-                <!--  -->
+                <!-- Subscribe -->
                 <div class="subscribe-us">
                     Subscribe
                 </div>
