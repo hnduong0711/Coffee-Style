@@ -20,3 +20,15 @@
 .cs-top-menu-expanded{
     @apply absolute top-24 z-10 w-full bg-white text-center animate-slideDown
 }
+
+.cs-subline{
+    @apply  flex justify-center items-center my-24
+}
+
+.cs-subline-deco-line{
+    @apply  w-8 h-px bg-gray-200
+}
+
+.cs-subline-label{
+    @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center
+}
