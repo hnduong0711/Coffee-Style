@@ -32,3 +32,7 @@
 .cs-subline-label{
     @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center
 }
+
+.cs-button{
+    @apply uppercase text-sm text-gray-900 tracking-wider font-semibold text-cente px-2 py-3 cursor-pointer rounded-sm
+}
