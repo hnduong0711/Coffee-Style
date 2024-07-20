@@ -600,6 +600,11 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -653,6 +658,14 @@ video {
   height: 1px;
 }
 
+.h-\[400px\]{
+  height: 400px;
+}
+
+.h-\[380px\]{
+  height: 380px;
+}
+
 .w-11\/12{
   width: 91.666667%;
 }
@@ -676,6 +689,10 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .max-w-screen-2xl{
@@ -723,6 +740,10 @@ video {
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -789,6 +810,18 @@ video {
   background-image: url("./img/slider.jpg");
 }
 
+.bg-\[url\(\'\.\/img\/more1\.jpg\'\)\]{
+  background-image: url('./img/more1.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more2\.jpg\'\)\]{
+  background-image: url('./img/more2.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more3\.jpg\'\)\]{
+  background-image: url('./img/more3.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -835,9 +868,9 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.py-32{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .py-5{
@@ -1045,11 +1078,8 @@ video {
 }
 
 .cs-button{
-  width: 91.666667%;
   cursor: pointer;
   border-radius: 0.125rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.75rem;
@@ -1139,6 +1169,10 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:h-\[540px\]{
+    height: 540px;
+  }
+
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1146,6 +1180,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1161,8 +1199,20 @@ video {
     display: none;
   }
 
+  .lg\:w-\[65\%\]{
+    width: 65%;
+  }
+
   .lg\:basis-1\/6{
     flex-basis: 16.666667%;
+  }
+
+  .lg\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
@@ -1184,5 +1234,12 @@ video {
   .lg\:px-64{
     padding-left: 16rem;
     padding-right: 16rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:px-96{
+    padding-left: 24rem;
+    padding-right: 24rem;
   }
 }
