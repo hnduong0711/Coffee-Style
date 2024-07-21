@@ -11,6 +11,9 @@ module.exports = {
           600: '#744838'
         }
       },
+      screens: {
+        'xs': '480px'
+      },
       fontFamily: {
         'Karla': ['Karla', 'sans-serif']
       },

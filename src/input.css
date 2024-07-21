@@ -34,5 +34,5 @@
 }
 
 .cs-button{
-    @apply uppercase text-sm text-gray-900 tracking-wider font-semibold text-center px-2 py-3 cursor-pointer rounded-sm
+    @apply uppercase text-sm tracking-wider font-semibold text-center px-2 py-3 cursor-pointer rounded-sm
 }
