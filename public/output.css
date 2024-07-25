@@ -609,6 +609,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -627,6 +632,10 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .flex{
@@ -676,6 +685,10 @@ video {
 
 .h-px{
   height: 1px;
+}
+
+.h-\[350px\]{
+  height: 350px;
 }
 
 .w-11\/12{
@@ -800,6 +813,30 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .rounded-sm{
   border-radius: 0.125rem;
 }
@@ -873,6 +910,18 @@ video {
   background-image: url("./img/slider.jpg");
 }
 
+.bg-\[url\(\'\.\/img\/str1\.jpg\'\)\]{
+  background-image: url('./img/str1.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/str2\.jpg\'\)\]{
+  background-image: url('./img/str2.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/str3\.jpg\'\)\]{
+  background-image: url('./img/str3.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -941,6 +990,10 @@ video {
   text-align: center;
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 .font-Karla{
   font-family: Karla, sans-serif;
 }
@@ -1007,6 +1060,18 @@ video {
 
 .uppercase{
   text-transform: uppercase;
+}
+
+.leading-4{
+  line-height: 1rem;
+}
+
+.leading-6{
+  line-height: 1.5rem;
+}
+
+.leading-8{
+  line-height: 2rem;
 }
 
 .tracking-wider{
@@ -1269,6 +1334,11 @@ video {
   color: rgb(116 72 56 / var(--tw-text-opacity));
 }
 
+.hover\:text-coffee-200:hover{
+  --tw-text-opacity: 1;
+  color: rgb(165 102 52 / var(--tw-text-opacity));
+}
+
 .hover\:transition-all:hover{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1277,6 +1347,14 @@ video {
 
 .hover\:duration-300:hover{
   transition-duration: 300ms;
+}
+
+.hover\:duration-100:hover{
+  transition-duration: 100ms;
+}
+
+.hover\:duration-500:hover{
+  transition-duration: 500ms;
 }
 
 .hover\:ease-in-out:hover{
