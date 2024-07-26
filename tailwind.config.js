@@ -9,7 +9,8 @@ module.exports = {
           200: '#A56634',
           400: '#A25f4b',
           600: '#744838'
-        }
+        },
+        'subscribe': '#1d1f2e'
       },
       screens: {
         'xs': '480px'
